@@ -1,0 +1,26 @@
+markosrbakov@Markos-MBP SI_2023_lab1_201072 % git log
+commit 1b594c00baf687bdeb560c11940cb8da960552d0 (HEAD -> master, 
+origin/master, bug3)
+Author: Marko Srbakov <85948841+markosrbakov@users.noreply.github.com>
+Date:   Fri Apr 7 20:03:59 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 3047011e8f4eefde5cea86ef8275a8f5951df40f
+Merge: 40747ae 5074b0b
+Author: Marko Srbakov <85948841+markosrbakov@users.noreply.github.com>
+Date:   Fri Apr 7 20:04:59 2023 +0200
+
+    Merge branch bug2Merge branch 'bug2'
+
+commit 5074b0bb55e9283e91524b38765c9eb5a3ce5e92 (origin/bug2, bug2)
+Author: Marko Srbakov <85948841+markosrbakov@users.noreply.github.com>
+Date:   Fri Apr 7 20:03:16 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 40747aebd07916cb6884fc08ee74a02fe72697ef (origin/bug1, bug1)
+Author: Marko Srbakov <85948841+markosrbakov@users.noreply.github.com>
+Date:   Fri Apr 7 20:02:32 2023 +0200
+:
+

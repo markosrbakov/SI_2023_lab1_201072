@@ -1,0 +1,47 @@
+cd Desktop
+cd SI_2023_lab1_201072
+git init
+git remote add origin 
+https://github.com/markosrbakov/SI_2023_lab1_201072.git
+nano README.md
+git add README.md
+git commit -m “Inital commit”
+git add SILab1.java
+git commit -m “Add java class”
+git branch -M master
+git push -u origin master
+git branch bug1
+git branch bug2
+git branch bug3
+nano SILab1.java
+git add SILab1.java
+git commit -m “Fix wrong loop for reading”
+git checkout bug2
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+git checkout bug3
+git add SILab1.java
+git commit -m "Fix method sumEVen numbers"
+git checkout bug1
+it push -u origin bug1
+git checkout bug2
+git push -u origin bug2
+git checkout bug3
+git push -u origin bug3
+git checkout master
+git merge bug1 - NO CONFLICTS F-F
+git merge bug2
+(Auto-merging SILab1.java
+Merge made by the 'ort' strategy.)
+git push
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3 - NO CONFLICTS F-F
+git push —force
+nano logs.txt
+Add git log
+nano 201072.txt 
+Add all from this file
+
+
